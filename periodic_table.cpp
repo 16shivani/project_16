@@ -1106,3 +1106,39 @@ Mass = 195.08;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "79") || (Command == "gold") || (Command == "Au"))
+{
+Name = "gold";
+Number = 79;
+Group = 11;
+Period = 6;
+Formula = "Au";
+Charge = "3+ \\ 1+";
+Mass = 196.97;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "80") || (Command == "mercury") || (Command == "Mg"))
+{
+Name = "mercury";
+Number = 80;
+Group = 12;
+Period = 6;
+Formula = "Hg";
+Charge = "2+ \\ 1+";
+Mass = 200.59;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "81") || (Command == "thallium") || (Command == "Tl"))
+{
+Name = "thallium";
+Number = 81;
+Group = 13;
+Period = 6;
+Formula = "Tl";
+Charge = "1+ \\ 3+";
+Mass = 204.38;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
