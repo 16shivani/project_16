@@ -1022,3 +1022,39 @@ Mass = 174.97;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "72") || (Command == "hefnium") || (Command == "Hf"))
+{
+Name = "hefnium";
+Number = 72;
+Group = 4;
+Period = 6;
+Formula = "Hf";
+Charge = "4+";
+Mass = 178.49;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "73") || (Command == "tantalum") || (Command == "Ta"))
+{
+Name = "tantalum";
+Number = 73;
+Group = 5;
+Period = 6;
+Formula = "Ta";
+Charge = "5+";
+Mass = 180.95;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "74") || (Command == "wolfrum") || (Command == "tungsten") || (Command == "W"))
+{
+Name = "wolfrum (tungsten)";
+Number = 74;
+Group = 6;
+Period = 6;
+Formula = "W";
+Charge = "6+";
+Mass = 183.85;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
