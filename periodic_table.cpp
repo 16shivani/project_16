@@ -998,3 +998,27 @@ Mass = 168.94;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "70") || (Command == "ytlerhium") || (Command == "Yb"))
+{
+Name = "ytlerhium";
+Number = 70;
+Group = 17;
+Period = 6;
+Formula = "Yb";
+Charge = "3+ \\ 2+";
+Mass = 173.04;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "71") || (Command == "lutelium") || (Command == "Lu"))
+{
+Name = "lutelium";
+Number = 71;
+Group = 18;
+Period = 6;
+Formula = "Lu";
+Charge = "3+";
+Mass = 174.97;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
