@@ -914,3 +914,27 @@ Mass = 150.40;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "63") || (Command == "europium") || (Command == "Eu"))
+{
+Name = "europium";
+Number = 63;
+Group = 10;
+Period = 6;
+Formula = "Eu";
+Charge = "3+ \\ 2+";
+Mass = 151.97;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "64") || (Command == "gadolinium") || (Command == "Gd"))
+{
+Name = "gadolinium";
+Number = 64;
+Group = 11;
+Period = 6;
+Formula = "Gd";
+Charge = "3+";
+Mass = 157.25;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
