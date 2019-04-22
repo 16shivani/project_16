@@ -938,3 +938,15 @@ Mass = 157.25;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "65") || (Command == "terbium") || (Command == "Tb"))
+{
+Name = "terbium";
+Number = 65;
+Group = 12;
+Period = 6;
+Formula = "Tb";
+Charge = "3+";
+Mass = 158.93;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
