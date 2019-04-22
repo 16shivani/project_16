@@ -962,3 +962,15 @@ Mass = 162.50;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "67") || (Command == "helmium") || (Command == "Ho"))
+{
+Name = "helmium";
+Number = 67;
+Group = 14;
+Period = 6;
+Formula = "Ho";
+Charge = "3+";
+Mass = 164.93;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
