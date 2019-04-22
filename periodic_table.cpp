@@ -1406,3 +1406,51 @@ Mass = 260;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+//---------------------------------------------------------------------------
+else
+{
+ if ((Command != "Quit") && (Command != "QUIT") && (Command != "quit"))
+ {
+ cout<< "Unrecognized command.\n";
+ }
+}
+}while ((Command != "Quit") && (Command != "QUIT") && (Command != "quit"));
+Color = 1+random(8);
+if (Color == 1)
+{
+textcolor(RED);
+}
+else if (Color == 2)
+{
+textcolor(MAGENTA);
+}
+else if (Color == 3)
+{
+textcolor(BLUE);
+}
+else if (Color == 4)
+{
+textcolor(GREEN);
+}
+else if (Color == 5)
+{
+textcolor(WHITE);
+}
+else if (Color == 6)
+{
+textcolor(YELLOW);
+}
+else if (Color == 7)
+{
+textcolor(BROWN);
+}
+else if (Color == 8)
+{
+textcolor(CYAN);
+}
+textbackground(BLACK);
+clrscr();
+gotoxy(1,2);
+return(0);
+}
+// END OF Table.cpp
