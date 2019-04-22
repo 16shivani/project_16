@@ -1238,3 +1238,51 @@ Mass = 227.03;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "90") || (Command == "thorlum") || (Command == "Th"))
+{
+Name = "thorlum";
+Number = 90;
+Group = 5;
+Period = 7;
+Formula = "Th";
+Charge = "4+";
+Mass = 232.04;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "91") || (Command == "protactinium") || (Command == "Pa"))
+{
+Name = "protactinium";
+Number = 91;
+Group = 6;
+Period = 7;
+Formula = "Pa";
+Charge = "5+ \\ 4+";
+Mass = 231.04;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "92") || (Command == "uranium") || (Command == "U"))
+{
+Name = "uranium";
+Number = 92;
+Group = 7;
+Period = 7;
+Formula = "U";
+Charge = "6+ \\ 4+";
+Mass = 238.03;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "93") || (Command == "neplunium") || (Command == "Np"))
+{
+Name = "neplunium";
+Number = 93;
+Group = 8;
+Period = 7;
+Formula = "Np";
+Charge = "5+";
+Mass = 237.05;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
