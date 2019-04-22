@@ -890,3 +890,15 @@ Mass = 144.24;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "61") || (Command == "promethium") || (Command == "Pm"))
+{
+Name = "promethium";
+Number = 61;
+Group = 8;
+Period = 6;
+Formula = "Pm";
+Charge = "3+";
+Mass = 145;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
