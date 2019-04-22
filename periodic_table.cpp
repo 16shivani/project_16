@@ -950,3 +950,15 @@ Mass = 158.93;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "66") || (Command == "dysprosium") || (Command == "Dy"))
+{
+Name = "dysprosium";
+Number = 66;
+Group = 13;
+Period = 6;
+Formula = "Dy";
+Charge = "3+";
+Mass = 162.50;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
