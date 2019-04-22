@@ -1394,3 +1394,15 @@ Mass = 259;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "103") || (Command == "lawrencium") || (Command == "Lr"))
+{
+Name = "lawrencium";
+Number = 103;
+Group = 18;
+Period = 7;
+Formula = "Lr";
+Charge = "3+";
+Mass = 260;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
