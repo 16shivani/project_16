@@ -1346,3 +1346,51 @@ Mass = 251;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "99") || (Command == "einsteinium") || (Command == "Es"))
+{
+Name = "einsteinium";
+Number = 99;
+Group = 14;
+Period = 7;
+Formula = "Es";
+Charge = "3+";
+Mass = 252;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "100") || (Command == "formium") || (Command == "Fm"))
+{
+Name = "formium";
+Number = 100;
+Group = 15;
+Period = 7;
+Formula = "Fm";
+Charge = "3+";
+Mass = 257;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "101") || (Command == "mendelevium") || (Command == "Md"))
+{
+Name = "mendelevium";
+Number = 101;
+Group = 16;
+Period = 7;
+Formula = "Md";
+Charge = "2+ \\ 3+";
+Mass = 258;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "102") || (Command == "nebelium") || (Command == "No"))
+{
+Name = "nebelium";
+Number = 102;
+Group = 17;
+Period = 7;
+Formula = "No";
+Charge = "2+ \\ 3+";
+Mass = 259;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
