@@ -1058,3 +1058,51 @@ Mass = 183.85;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "75") || (Command == "rhenium") || (Command == "Re"))
+{
+Name = "rhenium";
+Number = 75;
+Group = 7;
+Period = 6;
+Formula = "Re";
+Charge = "7+";
+Mass = 186.21;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "76") || (Command == "osmium") || (Command == "Os"))
+{
+Name = "osmium";
+Number = 76;
+Group = 8;
+Period = 6;
+Formula = "Os";
+Charge = "4+";
+Mass = 190.2;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "77") || (Command == "iridium") || (Command == "Ir"))
+{
+Name = "iridium";
+Number = 77;
+Group = 9;
+Period = 6;
+Formula = "Ir";
+Charge = "4+";
+Mass = 192.22;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "78") || (Command == "platinum") || (Command == "Pt"))
+{
+Name = "platinum";
+Number = 78;
+Group = 10;
+Period = 6;
+Formula = "Pt";
+Charge = "4+ \\ 2+";
+Mass = 195.08;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
