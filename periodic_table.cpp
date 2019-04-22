@@ -986,3 +986,15 @@ Mass = 167.26;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "69") || (Command == "thulium") || (Command == "Tm"))
+{
+Name = "thulium";
+Number = 69;
+Group = 16;
+Period = 6;
+Formula = "Tm";
+Charge = "3+";
+Mass = 168.94;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
