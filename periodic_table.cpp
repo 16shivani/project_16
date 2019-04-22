@@ -1286,3 +1286,63 @@ Mass = 237.05;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "94") || (Command == "plutonium") || (Command == "Pu"))
+{
+Name = "plutonium";
+Number = 94;
+Group = 9;
+Period = 7;
+Formula = "Pu";
+Charge = "4+ \\ 6+";
+Mass = 244;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "95") || (Command == "americium") || (Command == "Am"))
+{
+Name = "americium";
+Number = 95;
+Group = 10;
+Period = 7;
+Formula = "Am";
+Charge = "3+ \\ 4+";
+Mass = 244;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "96") || (Command == "curium") || (Command == "Cm"))
+{
+Name = "curium";
+Number = 96;
+Group = 11;
+Period = 7;
+Formula = "Cm";
+Charge = "3+";
+Mass = 247;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "97") || (Command == "borkelium") || (Command == "Bk"))
+{
+Name = "borkelium";
+Number = 97;
+Group = 12;
+Period = 7;
+Formula = "Bk";
+Charge = "3+ \\ 4+";
+Mass = 247;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "98") || (Command == "californium") || (Command == "Cf"))
+{
+Name = "californium";
+Number = 98;
+Group = 13;
+Period = 7;
+Formula = "Cf";
+Charge = "3+";
+Mass = 251;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
