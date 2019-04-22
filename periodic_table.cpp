@@ -1142,3 +1142,51 @@ Mass = 204.38;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "82") || (Command == "lead") || (Command == "Pb"))
+{
+Name = "lead";
+Number = 82;
+Group = 14;
+Period = 6;
+Formula = "Pb";
+Charge = "2+ \\ 4+";
+Mass = 207.20;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "83") || (Command == "bismuth") || (Command == "Bi"))
+{
+Name = "bismuth";
+Number = 83;
+Group = 15;
+Period = 6;
+Formula = "Bi";
+Charge = "3+ \\ 5+";
+Mass = 208.98;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "84") || (Command == "polonium") || (Command == "Po"))
+{
+Name = "polonium";
+Number = 84;
+Group = 16;
+Period = 6;
+Formula = "Po";
+Charge = "2+ \\ 4+";
+Mass = 209;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "85") || (Command == "asiatine") || (Command == "At"))
+{
+Name = "asiatine";
+Number = 85;
+Group = 17;
+Period = 6;
+Formula = "At";
+Charge = "1-";
+Mass = 210;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
