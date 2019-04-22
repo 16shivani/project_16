@@ -1190,3 +1190,51 @@ Mass = 210;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "86") || (Command == "radon") || (Command == "Rn"))
+{
+Name = "radon";
+Number = 86;
+Group = 18;
+Period = 6;
+Formula = "Rn";
+Charge = "0";
+Mass = 222;   
+Special = "Noble Gas";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "87") || (Command == "fruncium") || (Command == "Fr"))
+{
+Name = "fruncium";
+Number = 87;
+Group = 1;
+Period = 7;
+Formula = "Fr";
+Charge = "1+";
+Mass = 223;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "88") || (Command == "radium") || (Command == "Ra"))
+{
+Name = "radium";
+Number = 88;
+Group = 2;
+Period = 7;
+Formula = "Ra";
+Charge = "2+";
+Mass = 226.03;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "89") || (Command == "actinium") || (Command == "Ac"))
+{
+Name = "actinium";
+Number = 89;
+Group = 3;
+Period = 7;
+Formula = "Ac";
+Charge = "3+";
+Mass = 227.03;   
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
