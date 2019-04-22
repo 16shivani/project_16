@@ -974,3 +974,15 @@ Mass = 164.93;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "68") || (Command == "erbium") || (Command == "Er"))
+{
+Name = "erbium";
+Number = 68;
+Group = 15;
+Period = 6;
+Formula = "Er";
+Charge = "3+";
+Mass = 167.26;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
