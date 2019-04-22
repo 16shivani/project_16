@@ -902,3 +902,15 @@ Mass = 145;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "62") || (Command == "samarium") || (Command == "Sm"))
+{
+Name = "samarium";
+Number = 62;
+Group = 9;
+Period = 6;
+Formula = "Sm";
+Charge = "3+ \\ 2+";
+Mass = 150.40;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
